@@ -1,0 +1,14 @@
+container{
+    display: table;
+    background-color: aqua;
+
+
+}
+.row{
+    display: table-row;
+    
+}
+.colum{
+    display: table-cell;
+    background-color: aqua;
+}

@@ -1,0 +1,16 @@
+body{
+     background-color: aquamarine;
+     margin: 30px;
+     padding: 20px;
+     flex: content;
+}
+.container{
+    margin: 10;
+    padding: ;
+    font-size: small;
+}
+.box1{
+    background-color: blue;
+    border-style: solid;
+    
+}

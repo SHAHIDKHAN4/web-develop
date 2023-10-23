@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-layout</title>
+</head>
+<style>
+    body{
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+    }
+    .parent{
+        display:grid;
+        grid-template-columns: 1fr 3fr;
+        border:3px solid red;
+        height:20rem;
+        gap:10px;
+    }
+    .child{
+        /* display:grid; */
+        border:2px solid brown;
+       
+
+    }
+    #child1{
+        grid-column: 1/span 2;
+        background-color: brown;
+    }
+    #child2{
+        background-color: rgb(16, 248, 8);
+        grid-column:1/span 1 ;
+        grid-row: 2/span 3 ;
+        
+    }
+    #child3{
+        background-color: rgb(46, 5, 247);
+        grid-column:2/span 1 ;
+        grid-row: 2/span 3 ;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child" id="child1">item1</div>
+        <div class="child" id="child2">item2</div>
+        <div class="child" id="child3">item3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+  body{
+    
+     margin: 35555555;
+     padding:3333333;
+     height: 100vh;
+  }
+  .container{
+     
+    margin: 20px;
+    
+  }
+  .row{
+    width: 10;
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .shiningbox{
+    background-color: rgb(3, 182, 153);
+  
+   flex:   1 auto;
+    max-width: 300000px;
+    height: 200px;
+    justify-content: center;
+    padding: 20px;
+    border: solid red;
+    height: 300px;
+    margin: 10px;
+    animation: shing 2s infinite;
+  }
+  @keyframes shining{
+    0%{
+      border-color: blue;
+      box-shadow: 0 0 10px;
+    }
+    50%{
+      border-color: brown;
+      box-shadow: 0 0 20px;
+
+    }
+    100%{
+      border-color: blueviolet;
+      box-shadow:0 0 10px blueviolet ;
+    }
+  }
